@@ -1,0 +1,37 @@
+{
+  "name": "hljs-prism",
+  "version": "0.1.0",
+  "description": "Prism.js theme for Highlight.js library.",
+  "files": [
+    "hljs-prism.css"
+  ],
+  "exports": {
+    "./hljs-prism.css": "./hljs-prism.css",
+    ".": "./hljs-prism.css"
+  },
+  "style": "./hljs-prism.css",
+  "keywords": [
+    "highlight",
+    "highlightjs",
+    "highlight.js",
+    "prism",
+    "prismjs",
+    "theme",
+    "syntax",
+    "syntax-highlighting",
+    "syntax-highlighter",
+    "code-theme",
+    "prism-theme",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jivtroy/hljs-prism.git"
+  },
+  "author": "Jiv Troy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jivtroy/hljs-prism/issues"
+  },
+  "homepage": "https://github.com/jivtroy/hljs-prism"
+}

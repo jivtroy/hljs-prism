@@ -1,0 +1,96 @@
+/*! 
+ * Highlight.js Prism v0.1.0
+ * Homepage (https://github.com/jivtroy/hljs-prism)
+ * Copyright 2026 Jiv Troy
+ * License: MIT
+ */
+/* Prism.js default-inspired theme for highlight.js */
+.hljs {
+  color: #000;
+  background: transparent;
+  text-shadow: 0 1px white;
+  display: block;
+}
+
+/* Comments */
+.hljs-comment,
+.hljs-quote {
+  color: #708090;
+}
+
+.hljs-quote {
+  font-style: italic;
+}
+
+/* Keywords */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #07a;
+  font-weight: bold;
+}
+
+/* Strings */
+.hljs-string,
+.hljs-doctag {
+  color: #07a;
+}
+
+/* Numbers & literals */
+.hljs-number,
+.hljs-literal {
+  color: #905;
+}
+
+/* Functions & classes */
+.hljs-title.function_,
+.hljs-title.class_,
+.hljs-title {
+  color: #DD4A68;
+  font-weight: bold;
+}
+
+/* Operators */
+.hljs-operator {
+  color: #9a6e3a;
+}
+
+/* Variables */
+.hljs-variable,
+.hljs-template-variable {
+  color: #e90;
+}
+
+/* Punctuation */
+.hljs-punctuation {
+  color: #999;
+}
+
+/* Attributes */
+.hljs-attr,
+.hljs-attribute {
+  color: #690;
+}
+
+/* Built-ins */
+.hljs-built_in {
+  color: #690;
+}
+
+/* Tags */
+.hljs-tag {
+  color: #999;
+}
+
+.hljs-name {
+  color: #905;
+}
+
+/* Emphasis */
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
