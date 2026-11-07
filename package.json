@@ -9,6 +9,7 @@
     "./hljs-prism.css": "./hljs-prism.css",
     ".": "./hljs-prism.css"
   },
+  "sideEffects": true,
   "style": "./hljs-prism.css",
   "keywords": [
     "highlight",
@@ -33,5 +34,11 @@
   "bugs": {
     "url": "https://github.com/jivtroy/hljs-prism/issues"
   },
-  "homepage": "https://github.com/jivtroy/hljs-prism"
+  "homepage": "https://github.com/jivtroy/hljs-prism",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com"
+    }
+  ]
 }

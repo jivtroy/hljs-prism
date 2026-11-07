@@ -7,11 +7,19 @@ Prism.js theme for Highlight.js library.
 1. [Compatibility](#compatibility)
 2. [Installation](#installation)
    1. [NPM](#npm)
+   2. [Bun](#bun)
+   3. [Deno](#deno)
+   4. [PNPM](#pnpm)
+   5. [Yarn](#yarn)
+   6. [Nub](#nub)
+   7. [Vlt](#vlt)
 3. [Usage](#usage)
    1. [CDN](#cdn)
    2. [Local](#local)
-4. [Author](#author)
-5. [License](#license)
+   3. [Bundler](#bundler)
+4. [Sponsors](#sponsors)  
+5. [Author](#author)
+6. [License](#license)
 
 ## Compatibility
 
@@ -25,6 +33,42 @@ Highlight.js | >= 11
 
 ```bash
 npm install hljs-prism
+```
+
+### Bun
+
+```bash
+bun add hljs-prism
+```
+
+### Deno
+
+```bash
+deno add npm:hljs-prism
+```
+
+### PNPM
+
+```bash
+pnpm add hljs-prism
+```
+
+### Yarn
+
+```bash
+yarn add hljs-prism
+```
+
+### Nub
+
+```bash
+nub install hljs-prism
+```
+
+### Vlt
+
+```bash
+vlt install hljs-prism
 ```
 
 ## Usage
@@ -78,6 +122,22 @@ npm install hljs-prism
   </body>
 </html>
 ```
+
+### Bundler
+
+ESM import:
+
+```js
+import 'hljs-prism'
+```
+
+Namespace import:
+
+```js
+import 'hljs-prism/hljs-prism.css'
+```
+
+## Sponsors
 
 ## Author
 
